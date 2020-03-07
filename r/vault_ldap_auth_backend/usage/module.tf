@@ -1,0 +1,32 @@
+module "vault_ldap_auth_backend" {
+  source = "./vault/r/vault_ldap_auth_backend"
+
+  binddn                  = null
+  bindpass                = null
+  certificate             = null
+  deny_null_bind          = null
+  description             = null
+  discoverdn              = null
+  groupattr               = null
+  groupdn                 = null
+  groupfilter             = null
+  insecure_tls            = null
+  path                    = null
+  starttls                = null
+  tls_max_version         = null
+  tls_min_version         = null
+  token_bound_cidrs       = []
+  token_explicit_max_ttl  = null
+  token_max_ttl           = null
+  token_no_default_policy = null
+  token_num_uses          = null
+  token_period            = null
+  token_policies          = []
+  token_ttl               = null
+  token_type              = null
+  upndomain               = null
+  url                     = null
+  use_token_groups        = null
+  userattr                = null
+  userdn                  = null
+}

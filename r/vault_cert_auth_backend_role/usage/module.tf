@@ -1,0 +1,29 @@
+module "vault_cert_auth_backend_role" {
+  source = "./vault/r/vault_cert_auth_backend_role"
+
+  allowed_common_names       = []
+  allowed_dns_sans           = []
+  allowed_email_sans         = []
+  allowed_names              = []
+  allowed_organization_units = []
+  allowed_uri_sans           = []
+  backend                    = null
+  bound_cidrs                = []
+  certificate                = null
+  display_name               = null
+  max_ttl                    = null
+  name                       = null
+  period                     = null
+  policies                   = []
+  required_extensions        = []
+  token_bound_cidrs          = []
+  token_explicit_max_ttl     = null
+  token_max_ttl              = null
+  token_no_default_policy    = null
+  token_num_uses             = null
+  token_period               = null
+  token_policies             = []
+  token_ttl                  = null
+  token_type                 = null
+  ttl                        = null
+}
