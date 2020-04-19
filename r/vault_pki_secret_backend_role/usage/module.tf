@@ -26,6 +26,7 @@ module "vault_pki_secret_backend_role" {
   max_ttl                            = null
   name                               = null
   no_store                           = null
+  not_before_duration                = null
   organization                       = []
   ou                                 = []
   policy_identifiers                 = []

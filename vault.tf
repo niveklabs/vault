@@ -1,7 +1,3 @@
-# Vault Provider
-
-[embedmd]:# (vault.tf)
-```tf
 provider "vault" {
   version = "v2.9.0"
 
@@ -26,4 +22,3 @@ provider "vault" {
     key_file  = null
   }
 }
-```

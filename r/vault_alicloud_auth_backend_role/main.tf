@@ -4,16 +4,10 @@ terraform {
   }
 }
 
-resource "vault_token_auth_backend_role" "this" {
-  allowed_policies        = var.allowed_policies
-  bound_cidrs             = var.bound_cidrs
-  disallowed_policies     = var.disallowed_policies
-  explicit_max_ttl        = var.explicit_max_ttl
-  orphan                  = var.orphan
-  path_suffix             = var.path_suffix
-  period                  = var.period
-  renewable               = var.renewable
-  role_name               = var.role_name
+resource "vault_alicloud_auth_backend_role" "this" {
+  arn                     = var.arn
+  backend                 = var.backend
+  role                    = var.role
   token_bound_cidrs       = var.token_bound_cidrs
   token_explicit_max_ttl  = var.token_explicit_max_ttl
   token_max_ttl           = var.token_max_ttl

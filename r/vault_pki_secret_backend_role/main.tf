@@ -1,6 +1,6 @@
 terraform {
   required_providers {
-    vault = ">= 2.8.0"
+    vault = ">= v2.9.0"
   }
 }
 
@@ -30,6 +30,7 @@ resource "vault_pki_secret_backend_role" "this" {
   max_ttl                            = var.max_ttl
   name                               = var.name
   no_store                           = var.no_store
+  not_before_duration                = var.not_before_duration
   organization                       = var.organization
   ou                                 = var.ou
   policy_identifiers                 = var.policy_identifiers

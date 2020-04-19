@@ -146,6 +146,12 @@ variable "no_store" {
   default     = null
 }
 
+variable "not_before_duration" {
+  description = "(optional) - Specifies the duration by which to backdate the NotBefore property."
+  type        = string
+  default     = null
+}
+
 variable "organization" {
   description = "(optional) - The organization of generated certificates."
   type        = list(string)

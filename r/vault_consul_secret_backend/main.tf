@@ -1,6 +1,6 @@
 terraform {
   required_providers {
-    vault = ">= 2.8.0"
+    vault = ">= v2.9.0"
   }
 }
 
