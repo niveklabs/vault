@@ -1,5 +1,5 @@
 module "vault_gcp_secret_roleset" {
-  source = "./vault/r/vault_gcp_secret_roleset"
+  source = "./modules/vault/r/vault_gcp_secret_roleset"
 
   backend      = null
   project      = null

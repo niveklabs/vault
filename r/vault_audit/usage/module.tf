@@ -1,5 +1,5 @@
 module "vault_audit" {
-  source = "./vault/r/vault_audit"
+  source = "./modules/vault/r/vault_audit"
 
   description = null
   options     = {}

@@ -1,5 +1,5 @@
 module "vault_pki_secret_backend_root_sign_intermediate" {
-  source = "./vault/r/vault_pki_secret_backend_root_sign_intermediate"
+  source = "./modules/vault/r/vault_pki_secret_backend_root_sign_intermediate"
 
   alt_names             = []
   backend               = null

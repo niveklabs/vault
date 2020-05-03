@@ -1,5 +1,5 @@
 module "vault_token" {
-  source = "./vault/r/vault_token"
+  source = "./modules/vault/r/vault_token"
 
   display_name      = null
   explicit_max_ttl  = null
@@ -7,6 +7,7 @@ module "vault_token" {
   no_parent         = null
   num_uses          = null
   period            = null
+  pgp_key           = null
   policies          = []
   renew_increment   = null
   renew_min_lease   = null

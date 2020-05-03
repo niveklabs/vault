@@ -1,5 +1,5 @@
 module "vault_azure_auth_backend_config" {
-  source = "./vault/r/vault_azure_auth_backend_config"
+  source = "./modules/vault/r/vault_azure_auth_backend_config"
 
   backend       = null
   client_id     = null

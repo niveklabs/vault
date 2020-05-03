@@ -1,5 +1,5 @@
 module "vault_kubernetes_auth_backend_config" {
-  source = "./vault/r/vault_kubernetes_auth_backend_config"
+  source = "./modules/vault/r/vault_kubernetes_auth_backend_config"
 
   backend            = null
   issuer             = null

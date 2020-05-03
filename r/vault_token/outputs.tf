@@ -4,6 +4,12 @@ output "client_token" {
   sensitive   = true
 }
 
+output "encrypted_client_token" {
+  description = "returns a string"
+  value       = vault_token.this.encrypted_client_token
+  sensitive   = true
+}
+
 output "id" {
   description = "returns a string"
   value       = vault_token.this.id

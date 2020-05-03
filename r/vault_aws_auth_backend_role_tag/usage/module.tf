@@ -1,5 +1,5 @@
 module "vault_aws_auth_backend_role_tag" {
-  source = "./vault/r/vault_aws_auth_backend_role_tag"
+  source = "./modules/vault/r/vault_aws_auth_backend_role_tag"
 
   allow_instance_migration  = null
   backend                   = null

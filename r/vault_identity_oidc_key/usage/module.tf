@@ -1,5 +1,5 @@
 module "vault_identity_oidc_key" {
-  source = "./vault/r/vault_identity_oidc_key"
+  source = "./modules/vault/r/vault_identity_oidc_key"
 
   algorithm          = null
   allowed_client_ids = []

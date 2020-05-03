@@ -1,5 +1,5 @@
 module "vault_gcp_secret_backend" {
-  source = "./vault/r/vault_gcp_secret_backend"
+  source = "./modules/vault/r/vault_gcp_secret_backend"
 
   credentials               = null
   default_lease_ttl_seconds = null

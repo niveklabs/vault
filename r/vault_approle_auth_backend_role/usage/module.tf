@@ -1,5 +1,5 @@
 module "vault_approle_auth_backend_role" {
-  source = "./vault/r/vault_approle_auth_backend_role"
+  source = "./modules/vault/r/vault_approle_auth_backend_role"
 
   backend                 = null
   bind_secret_id          = null

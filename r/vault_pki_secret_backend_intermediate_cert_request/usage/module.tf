@@ -1,5 +1,5 @@
 module "vault_pki_secret_backend_intermediate_cert_request" {
-  source = "./vault/r/vault_pki_secret_backend_intermediate_cert_request"
+  source = "./modules/vault/r/vault_pki_secret_backend_intermediate_cert_request"
 
   alt_names            = []
   backend              = null

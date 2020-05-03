@@ -1,5 +1,5 @@
 module "vault_kubernetes_auth_backend_role" {
-  source = "./vault/d/vault_kubernetes_auth_backend_role"
+  source = "./modules/vault/d/vault_kubernetes_auth_backend_role"
 
   audience                = null
   backend                 = null

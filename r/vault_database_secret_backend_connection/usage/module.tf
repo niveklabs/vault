@@ -1,5 +1,5 @@
 module "vault_database_secret_backend_connection" {
-  source = "./vault/r/vault_database_secret_backend_connection"
+  source = "./modules/vault/r/vault_database_secret_backend_connection"
 
   allowed_roles            = []
   backend                  = null
@@ -19,6 +19,12 @@ module "vault_database_secret_backend_connection" {
     protocol_version = null
     tls              = null
     username         = null
+  }]
+
+  elasticsearch = [{
+    password = null
+    url      = null
+    username = null
   }]
 
   hana = [{

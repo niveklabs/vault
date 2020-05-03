@@ -1,5 +1,5 @@
 module "vault_token_auth_backend_role" {
-  source = "./vault/r/vault_token_auth_backend_role"
+  source = "./modules/vault/r/vault_token_auth_backend_role"
 
   allowed_policies        = []
   bound_cidrs             = []

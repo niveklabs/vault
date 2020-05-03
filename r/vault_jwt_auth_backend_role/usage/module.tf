@@ -1,5 +1,5 @@
 module "vault_jwt_auth_backend_role" {
-  source = "./vault/r/vault_jwt_auth_backend_role"
+  source = "./modules/vault/r/vault_jwt_auth_backend_role"
 
   allowed_redirect_uris          = []
   backend                        = null

@@ -1,5 +1,5 @@
 module "vault_aws_secret_backend_role" {
-  source = "./vault/r/vault_aws_secret_backend_role"
+  source = "./modules/vault/r/vault_aws_secret_backend_role"
 
   backend         = null
   credential_type = null

@@ -1,5 +1,5 @@
 module "vault_ssh_secret_backend_role" {
-  source = "./vault/r/vault_ssh_secret_backend_role"
+  source = "./modules/vault/r/vault_ssh_secret_backend_role"
 
   allow_bare_domains       = null
   allow_host_certificates  = null

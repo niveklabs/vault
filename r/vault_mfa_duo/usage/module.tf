@@ -1,5 +1,5 @@
 module "vault_mfa_duo" {
-  source = "./vault/r/vault_mfa_duo"
+  source = "./modules/vault/r/vault_mfa_duo"
 
   api_hostname    = null
   integration_key = null

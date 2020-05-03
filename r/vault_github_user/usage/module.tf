@@ -1,5 +1,5 @@
 module "vault_github_user" {
-  source = "./vault/r/vault_github_user"
+  source = "./modules/vault/r/vault_github_user"
 
   backend                 = null
   policies                = []

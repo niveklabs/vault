@@ -1,5 +1,5 @@
 module "vault_pki_secret_backend_root_cert" {
-  source = "./vault/r/vault_pki_secret_backend_root_cert"
+  source = "./modules/vault/r/vault_pki_secret_backend_root_cert"
 
   alt_names             = []
   backend               = null

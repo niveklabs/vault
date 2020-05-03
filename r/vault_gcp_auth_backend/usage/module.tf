@@ -1,5 +1,5 @@
 module "vault_gcp_auth_backend" {
-  source = "./vault/r/vault_gcp_auth_backend"
+  source = "./modules/vault/r/vault_gcp_auth_backend"
 
   client_email   = null
   client_id      = null

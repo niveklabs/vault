@@ -1,6 +1,6 @@
 terraform {
   required_providers {
-    vault = ">= v2.9.0"
+    vault = ">= 2.10.0"
   }
 }
 
@@ -11,6 +11,7 @@ resource "vault_token" "this" {
   no_parent         = var.no_parent
   num_uses          = var.num_uses
   period            = var.period
+  pgp_key           = var.pgp_key
   policies          = var.policies
   renew_increment   = var.renew_increment
   renew_min_lease   = var.renew_min_lease

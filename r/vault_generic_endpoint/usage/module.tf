@@ -1,5 +1,5 @@
 module "vault_generic_endpoint" {
-  source = "./vault/r/vault_generic_endpoint"
+  source = "./modules/vault/r/vault_generic_endpoint"
 
   data_json            = null
   disable_delete       = null

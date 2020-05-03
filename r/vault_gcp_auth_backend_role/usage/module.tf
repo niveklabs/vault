@@ -1,5 +1,5 @@
 module "vault_gcp_auth_backend_role" {
-  source = "./vault/r/vault_gcp_auth_backend_role"
+  source = "./modules/vault/r/vault_gcp_auth_backend_role"
 
   add_group_aliases       = null
   allow_gce_inference     = null

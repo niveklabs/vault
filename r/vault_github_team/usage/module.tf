@@ -1,5 +1,5 @@
 module "vault_github_team" {
-  source = "./vault/r/vault_github_team"
+  source = "./modules/vault/r/vault_github_team"
 
   backend                 = null
   policies                = []

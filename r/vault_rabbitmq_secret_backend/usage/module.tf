@@ -1,5 +1,5 @@
 module "vault_rabbitmq_secret_backend" {
-  source = "./vault/r/vault_rabbitmq_secret_backend"
+  source = "./modules/vault/r/vault_rabbitmq_secret_backend"
 
   connection_uri            = null
   default_lease_ttl_seconds = null

@@ -1,10 +1,11 @@
-# Vault Provider
+# vault Provider
 
 [embedmd]:# (vault.tf)
 ```tf
 provider "vault" {
-  version = "v2.9.0"
+  version = "2.10.0"
 
+  add_address_to_env    = null
   address               = null
   ca_cert_dir           = null
   ca_cert_file          = null

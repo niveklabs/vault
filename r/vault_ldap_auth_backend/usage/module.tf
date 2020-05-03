@@ -1,5 +1,5 @@
 module "vault_ldap_auth_backend" {
-  source = "./vault/r/vault_ldap_auth_backend"
+  source = "./modules/vault/r/vault_ldap_auth_backend"
 
   binddn                  = null
   bindpass                = null

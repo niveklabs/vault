@@ -51,6 +51,18 @@ variable "cassandra" {
   default = []
 }
 
+variable "elasticsearch" {
+  description = "nested mode: NestingList, min items: 0, max items: 1"
+  type = set(object(
+    {
+      password = string
+      url      = string
+      username = string
+    }
+  ))
+  default = []
+}
+
 variable "hana" {
   description = "nested mode: NestingList, min items: 0, max items: 1"
   type = set(object(

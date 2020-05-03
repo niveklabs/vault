@@ -1,5 +1,5 @@
 module "vault_auth_backend" {
-  source = "./vault/r/vault_auth_backend"
+  source = "./modules/vault/r/vault_auth_backend"
 
   default_lease_ttl_seconds = null
   description               = null

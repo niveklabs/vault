@@ -1,5 +1,5 @@
 module "vault_mount" {
-  source = "./vault/r/vault_mount"
+  source = "./modules/vault/r/vault_mount"
 
   default_lease_ttl_seconds = null
   description               = null

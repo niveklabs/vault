@@ -1,5 +1,5 @@
 module "vault_identity_group" {
-  source = "./vault/d/vault_identity_group"
+  source = "./modules/vault/d/vault_identity_group"
 
   alias_id             = null
   alias_mount_accessor = null

@@ -1,6 +1,6 @@
 terraform {
   required_providers {
-    vault = ">= v2.9.0"
+    vault = ">= 2.10.0"
   }
 }
 
@@ -25,6 +25,15 @@ resource "vault_database_secret_backend_connection" "this" {
       protocol_version = cassandra.value["protocol_version"]
       tls              = cassandra.value["tls"]
       username         = cassandra.value["username"]
+    }
+  }
+
+  dynamic "elasticsearch" {
+    for_each = var.elasticsearch
+    content {
+      password = elasticsearch.value["password"]
+      url      = elasticsearch.value["url"]
+      username = elasticsearch.value["username"]
     }
   }
 

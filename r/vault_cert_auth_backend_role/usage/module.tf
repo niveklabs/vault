@@ -1,5 +1,5 @@
 module "vault_cert_auth_backend_role" {
-  source = "./vault/r/vault_cert_auth_backend_role"
+  source = "./modules/vault/r/vault_cert_auth_backend_role"
 
   allowed_common_names       = []
   allowed_dns_sans           = []

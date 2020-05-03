@@ -1,5 +1,5 @@
 module "vault_database_secret_backend_role" {
-  source = "./vault/r/vault_database_secret_backend_role"
+  source = "./modules/vault/r/vault_database_secret_backend_role"
 
   backend               = null
   creation_statements   = []

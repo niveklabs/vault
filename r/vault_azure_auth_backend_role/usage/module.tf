@@ -1,5 +1,5 @@
 module "vault_azure_auth_backend_role" {
-  source = "./vault/r/vault_azure_auth_backend_role"
+  source = "./modules/vault/r/vault_azure_auth_backend_role"
 
   backend                     = null
   bound_group_ids             = []

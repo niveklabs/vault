@@ -1,5 +1,5 @@
 module "vault_policy_document" {
-  source = "./vault/d/vault_policy_document"
+  source = "./modules/vault/d/vault_policy_document"
 
 
   rule = [{

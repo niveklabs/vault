@@ -1,5 +1,5 @@
 module "vault_jwt_auth_backend" {
-  source = "./vault/r/vault_jwt_auth_backend"
+  source = "./modules/vault/r/vault_jwt_auth_backend"
 
   bound_issuer           = null
   default_role           = null

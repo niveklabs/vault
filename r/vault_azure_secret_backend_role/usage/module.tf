@@ -1,5 +1,5 @@
 module "vault_azure_secret_backend_role" {
-  source = "./vault/r/vault_azure_secret_backend_role"
+  source = "./modules/vault/r/vault_azure_secret_backend_role"
 
   application_object_id = null
   backend               = null

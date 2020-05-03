@@ -1,5 +1,5 @@
 module "vault_pki_secret_backend_role" {
-  source = "./vault/r/vault_pki_secret_backend_role"
+  source = "./modules/vault/r/vault_pki_secret_backend_role"
 
   allow_any_name                     = null
   allow_bare_domains                 = null

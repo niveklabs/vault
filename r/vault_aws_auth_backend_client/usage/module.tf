@@ -1,5 +1,5 @@
 module "vault_aws_auth_backend_client" {
-  source = "./vault/r/vault_aws_auth_backend_client"
+  source = "./modules/vault/r/vault_aws_auth_backend_client"
 
   access_key                 = null
   backend                    = null

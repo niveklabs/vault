@@ -34,6 +34,12 @@ variable "period" {
   default     = null
 }
 
+variable "pgp_key" {
+  description = "(optional) - The PGP key (base64 encoded) to encrypt the token."
+  type        = string
+  default     = null
+}
+
 variable "policies" {
   description = "(optional) - List of policies."
   type        = set(string)

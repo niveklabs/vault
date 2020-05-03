@@ -1,5 +1,5 @@
 module "vault_consul_secret_backend" {
-  source = "./vault/r/vault_consul_secret_backend"
+  source = "./modules/vault/r/vault_consul_secret_backend"
 
   address                   = null
   default_lease_ttl_seconds = null

@@ -1,5 +1,5 @@
 module "vault_approle_auth_backend_role_secret_id" {
-  source = "./vault/r/vault_approle_auth_backend_role_secret_id"
+  source = "./modules/vault/r/vault_approle_auth_backend_role_secret_id"
 
   backend      = null
   cidr_list    = []

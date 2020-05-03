@@ -1,5 +1,5 @@
 module "vault_aws_auth_backend_login" {
-  source = "./vault/r/vault_aws_auth_backend_login"
+  source = "./modules/vault/r/vault_aws_auth_backend_login"
 
   backend                 = null
   iam_http_request_method = null

@@ -1,5 +1,5 @@
 module "vault_okta_auth_backend" {
-  source = "./vault/r/vault_okta_auth_backend"
+  source = "./modules/vault/r/vault_okta_auth_backend"
 
   base_url        = null
   bypass_okta_mfa = null

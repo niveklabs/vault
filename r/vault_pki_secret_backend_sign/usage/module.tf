@@ -1,5 +1,5 @@
 module "vault_pki_secret_backend_sign" {
-  source = "./vault/r/vault_pki_secret_backend_sign"
+  source = "./modules/vault/r/vault_pki_secret_backend_sign"
 
   alt_names             = []
   auto_renew            = null

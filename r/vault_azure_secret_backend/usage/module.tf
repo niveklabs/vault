@@ -1,5 +1,5 @@
 module "vault_azure_secret_backend" {
-  source = "./vault/r/vault_azure_secret_backend"
+  source = "./modules/vault/r/vault_azure_secret_backend"
 
   client_id       = null
   client_secret   = null

@@ -1,5 +1,5 @@
 module "vault_github_auth_backend" {
-  source = "./vault/r/vault_github_auth_backend"
+  source = "./modules/vault/r/vault_github_auth_backend"
 
   base_url                = null
   description             = null

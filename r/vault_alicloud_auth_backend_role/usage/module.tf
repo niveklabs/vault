@@ -1,5 +1,5 @@
 module "vault_alicloud_auth_backend_role" {
-  source = "./vault/r/vault_alicloud_auth_backend_role"
+  source = "./modules/vault/r/vault_alicloud_auth_backend_role"
 
   arn                     = null
   backend                 = null
